@@ -1,0 +1,502 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+#master #head{
+    height: 100%;
+    width:100% ;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#master #head #head-top{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#master #head #head-top h1{
+    text-align: center;
+}
+
+
+#master #head #head-video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#master #head #head-low{
+    position: absolute;
+    bottom: 5%;
+    left: 27.5%;
+    color: white;
+    
+}
+
+#master #head #head-low p a{
+    color: white;
+}
+
+.button{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 10%;
+    left: 25%;
+    height: 10%;
+    width: 100%;
+}
+.button button{
+    margin: 0 0 0 3rem;
+    border: none;
+    border-radius: 4px;
+    height: 60%;
+    width: 20%; 
+}
+.button #white{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bolder;
+}
+
+.button #black{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-weight: bolder;
+}
+
+#master #fix{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+#master #fix #top #para{
+    background-image: linear-gradient(to bottom right, #0f0538, #1a0d55, #0c0b0c, rgb(16, 16, 18));
+    color: white;
+    width: 100%;
+    height: 3rem;
+    padding: 1.5rem 7rem 0;
+    
+}
+
+#master #fix #top #para #span1{
+    font-size: 19px;
+    margin: 0 1rem 0 0;
+    font-weight: bolder;
+}
+
+#master #fix #top #para #span2{
+    
+    font-size: 14px;
+    margin: 0 1rem 0 0;
+    font-weight: bold;
+}
+
+#master #fix #top #para a{
+    color: white;
+    font-size: 17px;
+    
+}
+
+#master #fix #mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 50%;
+}
+
+#master #fix #mid #logo{
+    color: black;
+    background-color: none;
+    position: absolute;
+    top: 0;
+    left: 5%;
+}
+
+#master #fix #mid #logo img{
+    height: 10%;
+    width: 20%;
+}
+
+#master #fix #mid #ul{
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    left: 33%;
+    
+    
+}
+
+#master #fix #mid #ul ul{
+    margin: 0 2rem 0 0;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+
+#master #fix #mid #icon{
+    color: white;
+    position: absolute;
+    top:1rem;
+    left: 90%;
+}
+
+#master #fix #mid #icon i{
+    margin: 0 1rem 0 0;
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+
+#master #sec{
+    height: 91.1%;
+}
+#master #sec .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#master #sec #mid-video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#master #sec #sec1{
+    height: 100%;
+    width:100% ;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#master #sec #sec1 #sec1-top{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+#master #sec #sec1 #sec1-top h1{
+    text-align: center;
+}
+#master #sec #sec1 #sec1-top p{
+    font-weight: 500;
+}
+
+#master #sec #sec1 #sec1-low{
+    position: absolute;
+    bottom: 5%;
+    left: 27.5%;
+    color: black;
+}
+
+#master #sec #sec1 #sec1-low p a{
+    color: black;
+}
+
+#master #sec #sec2{
+    height: 100%;
+    width:100% ;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#master #sec #sec2 #sec2-top{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: black;
+    font-size: 1.5rem;
+}
+
+#master #sec #sec2 #sec2-top h1{
+    text-align: center;
+    font-weight: bolder;
+}
+#master #sec #sec2 #sec2-top #sec2-top-p1{
+    text-align: center;
+    font-weight: 500;
+    margin: 0 0 0 1.2rem;
+}
+#master #sec #sec2 #sec2-top #sec2-top-p2{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#master #sec #sec2 #sec2-low{
+    position: absolute;
+    bottom: 5%;
+    left: 27.5%;
+    color: white;
+}
+
+#master #sec #sec2 #sec2-low #sec2-low-a{
+    color: white;
+    margin: 0 0 0 15rem;
+}
+
+
+
+
+
+
+
+#master #sec #sec3{
+    height: 100%;
+    width:100% ;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#master #sec #sec3 #sec3-top{
+    position: absolute;
+    top: 10%;
+    left: 46%;
+    color: black;
+    font-size: 1.5rem;
+}
+
+#master #sec #sec3 #sec3-top h1{
+    font-weight: bolder;
+    align-items: center;
+    margin: 0 0 0 0.3rem;
+}
+#master #sec #sec3 #sec3-top #sec3-top-p1{
+    font-weight: 700;
+
+}
+#master #sec #sec3 #sec3-top #sec3-top-p2{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#master #sec #sec3 #sec3-low{
+    position: absolute;
+    bottom: 5%;
+    left: 27.5%;
+    color: black;
+    font-weight: 400;
+}
+
+#master #sec #sec3 #sec3-low #sec3-low-a{
+    color: black;
+    margin: 0 0 0 13rem;
+}
+
+
+
+#master #sec #sec4{
+    height: 100%;
+    width:100% ;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#master #sec #sec4 #sec4-top{
+    position: absolute;
+    top: 10%;
+    left: 46%;
+    color: black;
+    font-size: 1.5rem;
+}
+
+#master #sec #sec4 #sec4-top h1{
+    font-weight: bolder;
+    align-items: center;
+    margin: 0 0 0 0.3rem;
+}
+#master #sec #sec4 #sec4-top #sec4-top-p1{
+    font-weight: 700;
+
+}
+
+
+#master #sec #sec5{
+    height: 100%;
+    width:100% ;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#master #sec #sec5 #sec5-top{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#master #sec #sec5 #sec5-top h1{
+    font-weight: bolder;
+    align-items: center;
+}
+#master #sec #sec5 #sec5-top p{
+    font-weight: 700;
+    margin: 0 0 0 2.3rem;
+    font-size: medium;
+
+}
+
+#master #sec #sec5 .button{
+    position: absolute;
+    left: 38%;
+    width: 80%;
+}
+
+#master #sec #sec5 .button #white{
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    color: white;
+    height: 70%;
+    width: 22%;
+}
+
+
+
+#master #sec #sec6{
+    height: 100%;
+    width:100% ;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#master #sec #sec6 #sec6-top{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#master #sec #sec6 #sec6-top h1{
+    font-weight: bolder;
+    align-items: center;
+    margin: 0 0 0 3.5rem;
+}
+#master #sec #sec6 #sec6-top a{
+    font-weight: 100;
+    font-size: medium;
+    color: white;
+    margin: 0 0 0 3.5rem;    
+}
+
+#master #sec #sec7{
+    height: 100%;
+    width:100% ;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#master #sec #sec7 #sec7-top{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: black;
+    font-size: 1.5rem;
+}
+
+#master #sec #sec7 #sec7-top h1{
+    font-weight: bolder;
+    align-items: center;
+    margin: 0 0 0 3.5rem;
+}
+#master #sec #sec7 #sec7-top p{
+    font-weight: 400;
+    font-size: medium;
+    color: black;   
+}
+
+
+#master #sec #sec8{
+    height: 100%;
+    width:100% ;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#master #sec #sec8 #sec8-top{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: black;
+    font-size: 1.5rem;
+}
+
+#master #sec #sec8 #sec8-top h1{
+    font-weight: bolder;
+    align-items: center;
+    margin: 0 0 0 3.5rem;
+}
+
+#master #sec #sec9{
+    height: 100%;
+    width:100% ;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#master #sec #sec9 #sec9-top{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: black;
+    font-size: 1.5rem;
+}
+
+#master #sec #sec9 #sec9-top h1{
+    font-weight: bolder;
+    align-items: center;
+    margin: 0 0 0 3.5rem;
+}
+
+#master #sec #sec9 #sec9-low ul{
+
+    position: absolute;
+    display: flex;
+    bottom: 5%;
+    color: white;
+    left: 32%;
+}
+
+#master #sec #sec9 #sec9-low ul li{
+
+    list-style: none;
+    margin: 0 0 0 1rem;
+    font-weight: 400;
+    font-size: small;
+
+}
+#master #sec #sec9 .button{
+    position: absolute;
+    left: 40%;
+    width: 80%;
+}
+
